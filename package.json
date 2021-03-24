@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "polygon.io": "^2.0.2"
+  },
+  "name": "stocks",
+  "version": "1.0.0",
+  "description": "stocks",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "server"
+  },
+  "author": "",
+  "license": "ISC"
+}

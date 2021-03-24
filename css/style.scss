@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.name {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.hero-container {
+  height: 100vh;
+  background: url("../assets/images/goku.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+  border: 1px solid gray;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}
